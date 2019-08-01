@@ -9,7 +9,7 @@ services:
       - jira-data:/var/atlassian/jira
 
   confluence:
-    image: cptactionhank/atlassian-confluence:6.9.0
+    image: coolanole/docker-atlassian-confluence
     restart: always
     links:
       - database
